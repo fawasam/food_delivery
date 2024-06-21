@@ -14,12 +14,16 @@ a {
   color: inherit;
 }
 
+hr {
+  border: none;
+  height: 1px;
+  background-color: #a9a9a9;
+}
 .app {
   width: 80%;
   margin: 0 auto;
 }
-.flex-col {
+
+.app-content {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
